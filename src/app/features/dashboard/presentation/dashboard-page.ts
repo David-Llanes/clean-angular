@@ -1,9 +1,10 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { LayoutThemeSettingsPageComponent } from './components/layout-theme-settings-page';
 
 @Component({
   selector: 'app-dashboard-page',
-  imports: [],
-  template: ` <h1 class="text-3xl font-bold underline">Hello world!</h1>`,
+  imports: [LayoutThemeSettingsPageComponent],
+  template: ` <app-layout-theme-settings-page /> `,
   styles: ``,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
