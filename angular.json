@@ -9,7 +9,9 @@
         "@schematics/angular:component": {
           "skipTests": true,
           "changeDetection": "OnPush",
-          "flat": true
+          "flat": true,
+          "inlineTemplate": true,
+          "inlineStyle": true
         },
         "@schematics/angular:directive": {
           "skipTests": true,
